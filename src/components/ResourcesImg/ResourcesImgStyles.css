@@ -1,0 +1,40 @@
+.resources-img {
+    height: 100%;
+    width: 100%;
+    width: 300px;
+}
+
+.resources-img {
+    --gap:1rem;
+    --num-cols:3;
+    --row-height:300px;
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    margin: auto;
+    padding: 1rem 0;
+    gap: var(--gap);
+}
+
+.resources-img {
+    position: relative;
+    object-fit: cover;
+
+}
+
+.resources-img .overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.resources-img p {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}

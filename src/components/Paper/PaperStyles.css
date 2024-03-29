@@ -1,0 +1,36 @@
+.paper {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.paper .container-paper-1 {
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.paper .container-paper-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0 1rem;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+.paper .container-digital-1 {
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.paper .container-digital-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0 1rem;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 13%;
+    
+}
+

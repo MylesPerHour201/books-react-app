@@ -1,0 +1,5 @@
+.resources .container {
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-gap: 1rem;
+}
