@@ -4,7 +4,7 @@
     width: 300px;
 }
 
-.resources-img {
+.container {
     --gap:1rem;
     --num-cols:3;
     --row-height:300px;
@@ -14,6 +14,12 @@
     margin: auto;
     padding: 1rem 0;
     gap: var(--gap);
+}
+
+.resources-img img {
+    width: 100%;
+    height: 100%;
+    width: 300px;
 }
 
 .resources-img {

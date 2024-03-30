@@ -7,7 +7,7 @@ import Camus from '../../assests/camus.jpg'
 
 function Books() {
   return (
-    <div className='books'>
+    <div name='books' className='books'>
         <div className="container">
             <h1>
                 A few of my favorite books!

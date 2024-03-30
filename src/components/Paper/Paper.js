@@ -3,7 +3,7 @@ import './PaperStyles.css'
 
 function Paper() {
   return (
-    <div className='paper'>
+    <div name='paper' className='paper'>
         <div className='container-paper-1'>
         <h1>Pros/Cons of Paper books</h1>
         </div>

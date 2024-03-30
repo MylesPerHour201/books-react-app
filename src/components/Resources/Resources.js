@@ -9,7 +9,7 @@ import ResourcesImg from '../ResourcesImg/ResourcesImg'
 
 function Resources() {
   return (
-    <div className='resources'>
+    <div name='resources' className='resources'>
       <div className="container">
       <ResourcesImg bgImg={Amazon} text='Amazon Books' />
       <ResourcesImg bgImg={Barnes} text='Barnes n Nobles' />

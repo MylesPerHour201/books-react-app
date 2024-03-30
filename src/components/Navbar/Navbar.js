@@ -3,6 +3,8 @@ import {BiSearch} from 'react-icons/bi'
 import {BsPerson} from 'react-icons/bs'
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
 
+import {Link} from 'react-scroll'
+
 import './NavbarStyles.css'
 
 function Navbar() {
@@ -15,11 +17,11 @@ function Navbar() {
           <h2>BOOKS.</h2>
       </div>
       <ul className="nav-menu">
-        <li>Home</li>
-        <li>Books</li>
-        <li>Paper vs Digital</li>
-        <li>Why Books?</li>
-        <li>Resources</li>
+        <Link to='home'><li>Home</li></Link>
+        <Link to='books'><li>Books</li></Link>
+        <Link to='paper'><li>Paper vs Digital</li></Link>
+        <Link to='why'><li>Why Books?</li></Link>
+        <Link to='resources'><li>Resources</li></Link>
       </ul>
       <div className="nav-icon">
         <BiSearch className='icon' style={{marginRight: '1rem'}} />

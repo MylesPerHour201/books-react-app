@@ -3,8 +3,13 @@
 }
 
 .why .container {
-    margin-bottom: 15%;
+    
     font-size: 120%;
     background-color: black;
     color: aliceblue;
+}
+
+.why {
+    background-color: crimson;
+    margin-bottom: 15%;
 }

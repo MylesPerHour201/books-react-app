@@ -3,7 +3,7 @@ import './WhyStyles.css'
 
 function Why() {
   return (
-    <div className='why'>
+    <div name='why' className='why'>
         <div className='container'>
             <h1>Why are books important?</h1>
             <p>Continuing to read books for education as an adult is vital for personal and professional growth. Beyond formal education, reading fosters lifelong learning, intellectual stimulation, and critical thinking skills. It provides avenues for personal development, empathy, and cultural enrichment by exposing adults to diverse perspectives and experiences.</p> <br></br> <p>Moreover, reading contributes to professional advancement by offering insights, skills, and knowledge relevant to various industries and careers. It's a form of stress relief, relaxation, and enjoyment, offering a rewarding escape and a sense of fulfillment.</p> <br></br> <p>By prioritizing reading, adults not only invest in their own development but also set a positive example for others, inspiring a culture of lifelong learning and intellectual curiosity.</p>

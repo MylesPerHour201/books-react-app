@@ -3,3 +3,7 @@
     grid-template-columns: 3 1fr;
     grid-gap: 1rem;
 }
+
+.resources {
+    background-color: lightskyblue;
+}
